@@ -1,0 +1,43 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 60px 0 100px 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  width: 800px;
+}
+
+#app .data {
+  margin-bottom: 10px;
+}
+
+#app .data tbody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#app .data-id {
+  position: absolute;
+  left: 0px;
+}
+
+#app .data-title {
+  padding-left: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  width: 700px;
+}
+
+#app .data-completed {
+  position: absolute;
+  right: 0px;
+}
+/*# sourceMappingURL=index.css.map */
